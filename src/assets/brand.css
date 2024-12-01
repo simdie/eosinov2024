@@ -1,0 +1,30 @@
+/* The ticker container */
+.ticker {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Ensure the ticker-blocks scroll continuously */
+  .ticker-block {
+    display: flex;
+    animation: scrollLeft 50s linear infinite; /* Continuous animation */
+    animation-delay: 0s; /* Start after 1 second */
+  }
+  
+  /* For each image in the ticker */
+  .content-ticker-item {
+    flex-shrink: 0;
+    margin-right: 30px; /* Adjust space between logos */
+  }
+  
+  /* Keyframes for scrolling animation */
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0); /* Start from the initial position */
+    }
+    100% {
+      transform: translateX(-100%); /* Move off-screen to the left */
+    }
+  }
+  

@@ -1,0 +1,41 @@
+/* Hide track button on larger screens */
+.track-button {
+  display: none;
+}
+
+/* Show track button on mobile (max-width 768px) */
+@media (max-width: 768px) {
+  .track-button {
+    display: block; /* Show track button on mobile */
+  }
+}
+
+
+/* Jumping animation for the green button */
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(-3px); /* Moves up */
+  }
+  50% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(-4px); /* Moves up slightly less */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Add the jump effect to the button */
+.slow-bounce {
+  animation: jump 3s ease-in-out infinite; /* Apply jumping animation */
+}
+
+/* The text color of the button will be black by default */
+.slow-bounce {
+  color: black; /* Make text black */
+}

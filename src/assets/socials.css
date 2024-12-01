@@ -1,0 +1,47 @@
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+  }
+  
+  .social-icon img {
+    width: 24px; /* Adjust the size of the icons */
+    height: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover img {
+    transform: scale(1.1);
+  }
+
+  .social-links {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .social-links .text-small {
+    margin-bottom: 10px; /* Add some space below the "Follow Us" text */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-start; /* Align icons to the left */
+    gap: 15px;
+  }
+  
+  .social-icon img {
+    width: 24px; /* Adjust the size of the icons */
+    height: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover img {
+    transform: scale(1.1);
+  }
+  
+  

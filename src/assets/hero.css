@@ -1,0 +1,5 @@
+/* hero.css */
+.hero-image-block img {
+    will-change: transform; /* Enables GPU acceleration */
+  }
+  

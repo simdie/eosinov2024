@@ -1,8 +1,7 @@
-import { useState } from "react";
-import { Link } from "react-scroll";
-import '../index.css'; // Import the CSS file
+import React from 'react';
+import '../assets/header.css'; // Import the CSS file for styles
 
-const Header = () => {
+const Banner = () => {
 
     const handleLinkClick = (url) => {
         window.open(url, '_blank');
@@ -27,14 +26,8 @@ const Header = () => {
             </button>
 
 
-
-
-
-
-
-
         </div >
     )
 }
 
-export default Header;
+export default Banner;

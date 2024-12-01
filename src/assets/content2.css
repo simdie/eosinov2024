@@ -1,0 +1,63 @@
+/* For smooth page load animation */
+.content-two-image-block,
+.content-text-block {
+  opacity: 0; /* Initially hide the elements */
+  transform: translateY(30px); /* Move elements slightly down */
+  animation: fadeInUp 1.5s ease-out forwards; /* Apply the fade-in and move-up animation */
+}
+
+/* Delay the start of animation by 1 second */
+.content-two-image-block {
+  animation-delay: 1s; 
+}
+
+.content-text-block {
+  animation-delay: 1s;
+}
+
+/* Keyframes for fade-in and slide-up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px); /* Start from below */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Move to normal position */
+  }
+}
+
+/* Additional styling for the floating objects in the image block */
+.content-two-object-image {
+  animation: float 2s ease-in-out infinite;
+}
+
+/* Floating animation for images */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Float up */
+  }
+  100% {
+    transform: translateY(0); /* Return to the original position */
+  }
+}
+
+/* Image animation for image blocks */
+.content-image-gradient-blush img {
+  opacity: 0;
+  animation: fadeInImage 1.5s ease-out forwards;
+  animation-delay: 1s;
+}
+
+/* Fade in the images inside the gradient */
+@keyframes fadeInImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

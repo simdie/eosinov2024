@@ -1,17 +1,21 @@
-export { default as Header } from './Header';
 export { default as Banner } from './Banner';
-export { default as Footer } from './Footer';
-export { default as HeroBody } from './HeroBody';
-export { default as TraderStat } from './TraderStat';
-export { default as GetStarted } from './GetStarted';
-export { default as FundsProperties } from './FundsProperties';
-export { default as EosiSection7 } from './EosiSection7';
-export { default as FinanceNumbers } from './FinanceNumbers';
-export { default as EosiSection8 } from './EosiSection8';
-export { default as Testimonial } from './Testimonial';
-export { default as EosiSection9 } from './EosiSection9';
-export { default as BannerSection10 } from './BannerSection10';
-export { default as EosiTeamsection11 } from './EosiTeamsection11';
+export { default as Header } from './Header';
+export { default as Hero } from './Hero';
+export { default as Brand } from './Brand';
+export { default as FeatureSection } from './FeatureSection';
+export { default as FeatureTwoSection } from './FeatureTwoSection';
+export { default as ContentSection } from './ContentSection';
+export { default as ContentTwoSection } from './ContentTwoSection';
+export { default as ContentTwoSectionCopy } from './ContentTwoSectionCopy';
+export { default as ContentThreeSection } from './ContentThreeSection';
+export { default as ProcessSection } from './ProcessSection';
+export { default as ReviewsSection } from './ReviewsSection';
+export { default as StatSection } from './StatSection';
+export { default as RoadMap } from './RoadMap';
+export { default as TeamSection } from './TeamSection';
+export { default as FAQSection } from './FAQSection';
+export { default as CTASection } from './CTASection';
+export { default as FooterSection } from './FooterSection';
 
 
 

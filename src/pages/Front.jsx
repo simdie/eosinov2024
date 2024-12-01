@@ -8,21 +8,25 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { VscThreeBars } from 'react-icons/vsc';
 
 import {
-  Header,
   Banner,
+  Header,
+  Hero,
+  Brand,
+  FeatureSection,
+  FeatureTwoSection,
+  ContentSection,
+  ContentTwoSection,
+  ContentTwoSectionCopy,
+  ContentThreeSection,
+  ProcessSection,
+  ReviewsSection,
+  StatSection,
+  RoadMap,
+  TeamSection,
+  FAQSection,
+  CTASection,
+  FooterSection,
 
-  HeroBody,
-  TraderStat,
-  GetStarted,
-  FundsProperties,
-  EosiSection7,
-  EosiSection8,
-  Testimonial,
-  EosiSection9,
-  FinanceNumbers,
-  BannerSection10,
-  EosiTeamsection11,
-  Footer
 } from '../frontend';
 
 const Front = () => {
@@ -59,41 +63,59 @@ const Front = () => {
   };
 
   return (
-    <div className="bg-[#F5F7FF]">
+    <div className="">
 
-
-
-
-
-
+      
+      
       <Banner />
       <Header />
 
-      <HeroBody />
-      <TraderStat />
-      <GetStarted />
-      <FundsProperties />
-      <EosiSection7 />
-      <FinanceNumbers />
-      <EosiSection8 />
-      <Testimonial />
-      <EosiSection9 />
+      <div className="page-wrapper">
 
 
+        <Hero />
+
+        <Brand />
+
+        <FeatureSection />
+        <FeatureTwoSection />
+
+        <ContentSection />
+        <ContentTwoSection />
+        <ContentTwoSectionCopy />
+        <ContentThreeSection />
+
+        <ProcessSection />
+        {/* <ProcessWidget />
+        <ProcessGraph /> */}
+
+        <ReviewsSection />
+        {/* <ReviewCard />
+        <ReviewSectionHeading /> */}
+
+        <StatSection />
+        {/* <StatTextBlock />
+        <StatCard /> */}
+       <RoadMap />
+        <TeamSection />
+
+        <FAQSection />
+        
+
+        <CTASection />
+        
+
+        <FooterSection />
 
 
-      <div id="roadmap-section">
-        <BannerSection10 />
       </div>
-
-      <div id="team-section" >
-        <EosiTeamsection11 />
-      </div>
+      
 
 
-      <div id="footer-section">
-        <Footer />
-      </div>
+
+
+
+     
     </div>
   );
 };
