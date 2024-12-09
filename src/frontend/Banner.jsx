@@ -14,10 +14,10 @@ const Banner = () => {
         <div className=" lg:px-[150px] py-2 px-4 flex items-center justify-between  bg-gradient-to-r from-[#7D2E71] from-10% to-[#C57D28] to-90% hover:to-purple-400  " onClick={() => handleLinkClick('https://ico.eosifinance.org')}>
 
             <div className="text-normal lg:flex flex-col lg:items-start lg:text-lg">
-                <button className="text-center font-semibold ">$EOSIF Public Token Sale is LIVE.
+                <button className="text-center font-semibold ">$EOSIF Token Presale is LIVE. 
                 </button>
                 <button className="text-center font-semibold ">
-                    Buy now before public sale and listing.
+                Buy now on our website and get a 10% discount or buy on different launchpads.
                 </button>
             </div>
 

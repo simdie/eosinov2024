@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { ConnectWallet } from "@thirdweb-dev/react";
 
 
 const FeatureSection = () => {
@@ -90,8 +91,31 @@ const FeatureSection = () => {
                 <div
                   id="w-node-fef919f8-8181-4e28-0dba-b52a632c4ee4-95ca0515"
                 >
-                  <a href="contact.html" className="button w-inline-block">
-                    <div>Get Started For Free</div>
+
+
+
+                  <a className="button w-inline-block">
+
+                    <ConnectWallet
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        borderRadius: '9999px',
+                        backgroundColor: 'white',
+                        width: '0px',
+                        height: '0px',
+                        color: 'black',
+                        border: 'none',
+                        cursor: 'pointer',
+                        transition: 'background-color 0.3s', // Smooth transition for hover effect
+                      }}
+                      onMouseOver={(e) => e.target.style.backgroundColor = 'transparent'} // Set background to transparent on hover
+                      onMouseOut={(e) => e.target.style.backgroundColor = 'white'} // Revert back to white
+                    >
+                      Get Started
+                    </ConnectWallet>
+
                     <img
                       src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca058d_arrow-right.svg"
                       loading="lazy"
@@ -99,6 +123,12 @@ const FeatureSection = () => {
                       className="button-arrow-icon"
                     />
                   </a>
+
+
+
+
+
+
                 </div>
               </div>
 
@@ -107,18 +137,18 @@ const FeatureSection = () => {
 
 
             <motion.div
-                
-                initial={{ opacity: 0, y: 30 }} // Initial state: invisible, slightly below
-                whileInView={{ opacity: 1, y: 0 }} // Animate to fully visible when in view
-                transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }} // Smooth transition with delay
-                viewport={{ once: true }} // Trigger animation only once when it comes into view
-              >
-            <div
-              className="feature-card-two is-large"
-              id="w-node-f22a9aa4-e527-3a6a-b7ac-72d070f47468-95ca0515"
-            >
 
-              
+              initial={{ opacity: 0, y: 30 }} // Initial state: invisible, slightly below
+              whileInView={{ opacity: 1, y: 0 }} // Animate to fully visible when in view
+              transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }} // Smooth transition with delay
+              viewport={{ once: true }} // Trigger animation only once when it comes into view
+            >
+              <div
+                className="feature-card-two is-large"
+                id="w-node-f22a9aa4-e527-3a6a-b7ac-72d070f47468-95ca0515"
+              >
+
+
                 <div className="feature-card-two-inner">
                   <img
                     src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca067a_Map.png"
@@ -163,9 +193,9 @@ const FeatureSection = () => {
 
 
                 </div>
-              
-              
-            </div>
+
+
+              </div>
             </motion.div>
 
           </div>

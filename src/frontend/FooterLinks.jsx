@@ -12,9 +12,26 @@ const FooterLinks = () => {
               <p className="text-small">Home</p>
             </a>
            
-            <a href="#connectwallets" className="link-block w-inline-block">
+            {/* <a href="#connectwallets" className="link-block w-inline-block">
               <p className="text-small">Copy trading</p>
+            </a> */}
+
+            <a href="#" className="link-block w-inline-block">
+              <p className="text-small">
+                Copy trading
+                <span
+                  style={{
+                    color: 'blue',
+                    fontSize: '10px',
+                    fontWeight: 'bolder',
+                  }}
+                >
+                  (coming soon)
+                </span>
+              </p>
             </a>
+
+
             <a href="#team" className="link-block w-inline-block">
               <p className="text-small">Team</p>
             </a>
@@ -64,16 +81,16 @@ const FooterLinks = () => {
           <div className="row-gap-13">
             {/* External links */}
             <a
-              href="https://eosi-finance.gitbook.io/eosi-finance-whitepaper"
+              href="https://online.fliphtml5.com/limyj/fvvf"
               className="link-block w-inline-block"
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
             >
-              <p className="text-small">Whitepaper</p>
+              <p className="text-small">Pitch Deck</p>
             </a>
 
             <a
-              href="https://eosi-finance.gitbook.io/eosi-finance-whitepaper/tokenomics-and-stability-mechanisms-of-eosif"
+              href="https://online.fliphtml5.com/limyj/fvvf/#p=10"
               className="link-block w-inline-block"
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
@@ -92,15 +109,7 @@ const FooterLinks = () => {
             <a href="#get-funded" className="link-block w-inline-block">
               <p className="text-small">
                 Get Funded
-                <span
-                  style={{
-                    color: 'green',
-                    fontSize: '10px',
-                    fontWeight: 'bolder',
-                  }}
-                >
-                  (coming soon)
-                </span>
+               
               </p>
             </a>
           </div>

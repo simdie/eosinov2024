@@ -3,11 +3,16 @@ import { motion } from 'framer-motion';
 
 const reviewsData = [
   {
-    name: ' Alexvy',
+    name: 'Alexvy',
     role: 'Eosifnance COO Co-Founder',
-
     imgSrc: '/assets/6726ca0f328abbff95ca0511/funder1.png',
+    // imgStyle: {
+    //   width: '153px',
+    //   height: '143px',
+    // },
   },
+
+
 
   {
     name: ' Peter Hamann',
@@ -46,41 +51,41 @@ const TeamSection = () => {
       <div className="w-layout-blockcontainer container w-container">
         <div className="review-section-inner">
           <div className="review-section-top-part">
-          
+
 
             <div className="review-section-heading">
-            
+
               <div className="badge">
                 <div className="badge-text">EOSI Finance Team</div>
               </div>
               <motion.div
-                    className=""
-                    initial={{ opacity: 0, y: 30 }} // Initial state: invisible, slightly below
-                    whileInView={{ opacity: 1, y: 0 }} // Animate to fully visible when in view
-                    transition={{ duration: 1, ease: 'easeOut' }} // Smooth transition
-                    viewport={{ once: true }} // Trigger animation only once when it comes into view
-                  >
-              <h2 className="heading-two reviews-title-content-heading">The Team</h2>
+                className=""
+                initial={{ opacity: 0, y: 30 }} // Initial state: invisible, slightly below
+                whileInView={{ opacity: 1, y: 0 }} // Animate to fully visible when in view
+                transition={{ duration: 1, ease: 'easeOut' }} // Smooth transition
+                viewport={{ once: true }} // Trigger animation only once when it comes into view
+              >
+                <h2 className="heading-two reviews-title-content-heading">The Team</h2>
               </motion.div>
 
 
               <motion.div
-                    className="text-default reviewx-section-paragraph"
-                    initial={{ opacity: 0, y: 30 }} // Initial state: invisible, slightly below
-                    whileInView={{ opacity: 1, y: 0 }} // Animate to fully visible when in view
-                    transition={{ duration: 1, ease: 'easeOut' }} // Smooth transition
-                    viewport={{ once: true }} // Trigger animation only once when it comes into view
-                  >
-              <p className="text-default reviewx-section-paragraph">
-                EOSI Finance was founded by experienced quant traders, programmers, mathematicians and DeFi lovers with years of expereince in decentralised finance, forex, equity, stocks, binary options and the business fields as well.
+                className="text-default reviewx-section-paragraph"
+                initial={{ opacity: 0, y: 30 }} // Initial state: invisible, slightly below
+                whileInView={{ opacity: 1, y: 0 }} // Animate to fully visible when in view
+                transition={{ duration: 1, ease: 'easeOut' }} // Smooth transition
+                viewport={{ once: true }} // Trigger animation only once when it comes into view
+              >
+                <p className="text-default reviewx-section-paragraph">
+                  EOSI Finance was founded by experienced quant traders, programmers, mathematicians and DeFi lovers with years of expereince in decentralised finance, forex, equity, stocks, binary options and the business fields as well.
 
-                <br />
-                <br />
-                At EOSI Finance, we vouch for honesty, reliability, commitment, flexibility, innovation, diversity and leadership
-              </p>
+                  <br />
+                  <br />
+                  At EOSI Finance, we vouch for honesty, reliability, commitment, flexibility, innovation, diversity and leadership
+                </p>
               </motion.div>
             </div>
-            
+
 
 
           </div>
@@ -97,8 +102,19 @@ const TeamSection = () => {
                   >
                     <div className="reviews-section-card-heading">
                       <div className="reviews-card-icon">
-                        <img src={review.imgSrc} alt={review.name} loading="lazy" />
+                        <img
+                          src={review.imgSrc}
+                          alt={review.name}
+                          loading="lazy"
+                          style={{
+                            width: '85px',
+                            height: '90px',
+                            borderRadius: '50%',
+                          }}
+                        />
                       </div>
+
+
 
 
 

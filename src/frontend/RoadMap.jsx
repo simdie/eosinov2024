@@ -7,7 +7,7 @@ const RoadMap = () => {
   
      
       <img
-        src="/assets/6726ca0f328abbff95ca0511/eosi-roadmap.png"
+        src="/assets/6726ca0f328abbff95ca0511/eosi_roadmap.png"
         loading="lazy"
         alt="brand"
         
@@ -15,7 +15,7 @@ const RoadMap = () => {
       />
 
 <img
-        src="/assets/6726ca0f328abbff95ca0511/eaosi-ecosystem.png"
+        src="/assets/6726ca0f328abbff95ca0511/eosi_ecosystem.png"
         loading="lazy"
         alt="brand"
         style={{ marginTop: '200px' }}

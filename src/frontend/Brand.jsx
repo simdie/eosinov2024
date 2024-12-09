@@ -3,13 +3,15 @@ import '../assets/brand.css'; // Ensure to import the CSS file for styles
 
 const Brand = () => {
   return (
+    
     <section className="brand-section">
+      
       <div className="w-layout-blockcontainer container w-container">
         <div className="brand-inner">
           {/* Brand Title Block */}
-          <div className="brand-title-block">
-            <div className="brand-title">Our Backers</div>
-          </div>
+          {/* <div className="brand-title-block">
+            <div className="brand-title">Our Partners and Pre-Confirmed Listing</div>
+          </div> */}
           {/* Brand Ticker */}
           <div className="brand-ticker">
             <div className="ticker">

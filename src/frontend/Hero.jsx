@@ -56,8 +56,8 @@ const Hero = () => {
                 style={{ opacity: 1 }}
                 className="hero-button-wrap"
               >
-                <a href="contact.html" className="button w-inline-block">
-                  <div>Read the Whitepaper</div>
+                <a href="https://online.fliphtml5.com/limyj/fvvf/" className="button w-inline-block" target="_blank" rel="noopener noreferrer">
+                  <div>Read the Pitch Deck</div>
                   <img
                     src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca058d_arrow-right.svg"
                     loading="lazy"
@@ -65,6 +65,7 @@ const Hero = () => {
                     className="button-arrow-icon"
                   />
                 </a>
+
               </div>
               <div
                 data-w-id="45dd964c-d2f4-db04-ebe3-e996995539f3"
@@ -82,7 +83,7 @@ const Hero = () => {
           <div className="hero-image-block">
             <motion.img
               className="width-full"
-              src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0674_hero-element.webp"
+              src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0674_hero-element.svg"
               alt="Hero"
               style={{
                 opacity: 1,

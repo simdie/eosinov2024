@@ -26,7 +26,7 @@ const Header = () => {
                     <div className="lg:px-[150px] py-1 px-4 flex items-center justify-between bg-gradient-to-r from-[#7D2E71] from-10% to-[#C57D28] to-90% hover:to-purple-400" onClick={() => handleLinkClick('https://ico.eosifinance.org')}>
                         <div className="text-xs lg:flex flex-col lg:items-start lg:text-sm">
                             <button className="text-center font-semibold">
-                                $EOSIF Public Token Sale is LIVE. Buy now before public sale and listing.
+                            $EOSIF Token Presale is LIVE. Buy now on our website and get a 10% discount or buy on different launchpads.
                             </button>
                             
                         </div>
@@ -67,10 +67,10 @@ const Header = () => {
                                         rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
                                     >Blog</a>
 
-                                    <a href="https://eosi-finance.gitbook.io/eosi-finance-whitepaper" className="nav-item w-nav-link"
+                                    <a href="https://online.fliphtml5.com/limyj/fvvf" className="nav-item w-nav-link"
                                         target="_blank" // Opens the link in a new tab
                                         rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
-                                    >Whitepaper</a>
+                                    >Pitch Deck</a>
 
                                     <a href="/" aria-current="page" className="nav-item w-nav-link w--current track-button">Track</a>
 

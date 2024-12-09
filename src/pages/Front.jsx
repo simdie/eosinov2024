@@ -65,8 +65,8 @@ const Front = () => {
   return (
     <div className="">
 
-      
-      
+
+
       <Banner />
       <Header />
 
@@ -75,7 +75,13 @@ const Front = () => {
 
         <Hero />
 
+        <div className="brand-title-block flex justify-center items-center mt-10 mb-10">
+          <div className="brand-title text-center">Pre-confirmed Listing & Partners</div>
+        </div>
+
+
         <Brand />
+
 
         <FeatureSection />
         <FeatureTwoSection />
@@ -96,26 +102,26 @@ const Front = () => {
         <StatSection />
         {/* <StatTextBlock />
         <StatCard /> */}
-       <RoadMap />
+        <RoadMap />
         <TeamSection />
 
         <FAQSection />
-        
+
 
         <CTASection />
-        
+
 
         <FooterSection />
 
 
       </div>
-      
 
 
 
 
 
-     
+
+
     </div>
   );
 };
