@@ -19,6 +19,34 @@ const Brand = () => {
               <div className="ticker-block">
                 <div className="content-ticker-item">
                   <img
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_cointelegraph.png"
+                    loading="lazy"
+                    alt="brand"
+                    className="image-6"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
+                  />
+                </div>
+
+                <div className="content-ticker-item">
+                  <img
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_coinpaper.png"
+                    loading="lazy"
+                    alt="brand"
+                    className="image-6"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
+                  />
+                </div>
+
+                <div className="content-ticker-item">
+                  <img
                     src="/assets/6726ca0f328abbff95ca0511/eosi_probit_global.png"
                     loading="lazy"
                     alt="brand"
@@ -30,6 +58,23 @@ const Brand = () => {
                     }}
                   />
                 </div>
+
+                <div className="content-ticker-item">
+                  <img
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_blockspot_io.png"
+                    loading="lazy"
+                    alt="brand"
+                    className="image-6"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
+                  />
+                </div>
+
+          
+
                 <div className="content-ticker-item">
                   <img
                     src="/assets/6726ca0f328abbff95ca0511/eosi_polygon.png"
