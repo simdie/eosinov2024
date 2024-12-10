@@ -21,14 +21,14 @@ const Header = () => {
                 <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" className="header is-fixed w-nav" >
                     <div className="header-shadow"></div>
 
-                    
+
 
                     <div className="lg:px-[150px] py-1 px-4 flex items-center justify-between bg-gradient-to-r from-[#7D2E71] from-10% to-[#C57D28] to-90% hover:to-purple-400" onClick={() => handleLinkClick('https://ico.eosifinance.org')}>
                         <div className="text-xs lg:flex flex-col lg:items-start lg:text-sm">
                             <button className="text-center font-semibold">
-                            $EOSIF Token Presale is LIVE. Buy now on our website and get a 10% discount or buy on different launchpads.
+                                $EOSIF Token Presale is LIVE. Buy now on our website and get a 10% discount or buy on different launchpads.
                             </button>
-                            
+
                         </div>
 
                         <button className="font-bold text-xs w-[230px] sm:w-[200px] py-3 rounded-xl shadow-4xl bg-gradient-to-r from-[#02FA1B] from-10% to-green-700 to-90% slow-bounce text-black">
@@ -59,7 +59,41 @@ const Header = () => {
                                     </div>
                                     {/* Nav Items */}
                                     <a href="/" aria-current="page" className="nav-item w-nav-link w--current">Home</a>
-                                    <a href="#home" className="nav-item w-nav-link">Products</a>
+
+
+                                    {/* Products Dropdown */}
+                                    <div className="dropdown w-dropdown">
+                                        <a href="#" className="nav-item w-nav-link">Products</a>
+                                        <div className="w-dropdown-list">
+                                            <a href="#" className="dropdown-link">Copy-Trading
+                                                <span
+                                                    style={{
+                                                        color: 'green',
+                                                        fontSize: '10px',
+                                                        fontWeight: 'bolder',
+                                                        marginLeft: '5px',
+                                                    }}
+                                                >
+                                                    (coming soon)
+                                                </span>
+                                            </a>
+                                            <a href="#" className="dropdown-link">Buy a Funded Account
+                                                <span
+                                                    style={{
+                                                        color: 'green',
+                                                        fontSize: '10px',
+                                                        fontWeight: 'bolder',
+                                                        marginLeft: '5px',
+                                                    }}
+                                                >   
+                                                    (coming soon)
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+
                                     <a href="#roadmap" className="nav-item w-nav-link">Roadmap</a>
                                     <a href="#team" className="nav-item w-nav-link">Team</a>
                                     <a href="https://medium.com/@eosifinance_ai" className="nav-item w-nav-link"

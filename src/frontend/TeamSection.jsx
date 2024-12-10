@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const reviewsData = [
   {
     name: 'Alexvy',
-    role: 'Eosifnance COO Co-Founder',
+    role: 'COO Co-Founder',
     imgSrc: '/assets/6726ca0f328abbff95ca0511/funder1.png',
     // imgStyle: {
     //   width: '153px',
@@ -16,15 +16,15 @@ const reviewsData = [
 
   {
     name: ' Peter Hamann',
-    role: 'CTO/Co-Founder Eosifinance',
+    role: 'CTO/Co-Founder',
 
     imgSrc: '/assets/6726ca0f328abbff95ca0511/funder2.png',
   },
 
   {
     name: 'Olick Darren',
-    role: 'Eosifinance Quant Trader',
-    imgSrc: '/assets/6726ca0f328abbff95ca0511/funder3.png',
+    role: 'Quant Trader',
+    imgSrc: '/assets/6726ca0f328abbff95ca0511/funder5.png',
   },
 
   {
@@ -35,7 +35,7 @@ const reviewsData = [
   {
     name: 'Veronika',
     role: 'Representatives Co-ordinator',
-    imgSrc: '/assets/6726ca0f328abbff95ca0511/funder5.png',
+    imgSrc: '/assets/6726ca0f328abbff95ca0511/funder3.png',
   },
   {
     name: 'tevis',

@@ -8,8 +8,50 @@
   .track-button {
     display: block; /* Show track button on mobile */
   }
-}
 
+  /* Centering the navigation menu items on mobile */
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items to center */
+  }
+
+  /* Ensure the Products dropdown also aligns properly */
+  .w-dropdown {
+    display: block;
+    width: 100%; /* Full width for dropdown on mobile */
+    text-align: center; /* Center the "Products" link */
+  }
+
+  /* Remove any extra margins or paddings to keep it neat */
+  .nav-item {
+    margin: 10px 0; /* Add vertical spacing between items */
+    width: auto; /* Remove any fixed width */
+  }
+
+  /* Dropdown list styles for mobile */
+  .w-dropdown-list {
+    background-color: black; /* Set background to black when hovered or clicked */
+    border: 0.2px solid rgb(63, 39, 81); /* White border */
+    color: white; /* White text */
+    min-width: 250px; /* Widen the dropdown */
+    padding: 10px 0; /* Add padding to give it more height */
+    border-radius: 8px; /* Round the corners slightly */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft box shadow */
+    z-index: 1;
+    opacity: 0; /* Initial opacity for animation */
+    transform: translateY(-15px); /* Initial position for animation */
+    transition: opacity 0.5s ease, transform 0.5s ease, background-color 0.3s ease; /* Smooth transitions */
+  }
+
+  /* Display the dropdown list when hovering over the Products menu */
+  .w-dropdown:hover .w-dropdown-list {
+    display: block;
+    opacity: 1; /* Show the dropdown */
+    transform: translateY(0); /* Move the dropdown to its final position */
+    background-color: black; /* Keep the background black */
+  }
+}
 
 /* Jumping animation for the green button */
 @keyframes jump {
@@ -38,4 +80,51 @@
 /* The text color of the button will be black by default */
 .slow-bounce {
   color: black; /* Make text black */
+}
+
+/* Dropdown container styles */
+.w-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown list (submenu) hidden by default */
+.w-dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: transparent; /* Transparent background */
+  border: 0.2px solid rgb(63, 39, 81); /* White border */
+  color: white; /* White text */
+  min-width: 350px; /* Widen the dropdown */
+  padding: 10px 0; /* Add padding to give it more height */
+  border-radius: 8px; /* Round the corners slightly */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Soft box shadow */
+  z-index: 1;
+  opacity: 0; /* Initial opacity for animation */
+  transform: translateY(-15px); /* Initial position for animation */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth slow transition for opacity and position */
+}
+
+/* Display the dropdown list when hovering over the Products menu */
+.w-dropdown:hover .w-dropdown-list {
+  display: block;
+  opacity: 1; /* Show the dropdown */
+  transform: translateY(0); /* Move the dropdown to its final position */
+  background-color: black; /* Set background to black */
+}
+
+/* Dropdown link styles (for submenu items) */
+.dropdown-link {
+  padding: 12px 16px;
+  text-decoration: none;
+  color: rgb(143, 141, 145); /* Grayish text */
+  display: block;
+  transition: background-color 0.3s, padding 0.3s ease; /* Smooth background-color and padding transition */
+}
+
+/* Hover effect for the dropdown links */
+.dropdown-link:hover {
+  color: rgb(244, 241, 241); /* Change text color on hover */
+  padding-left: 20px; /* Add a slight left padding for a sliding effect */
+  background-color: rgba(0, 0, 0, 0.1); /* Optional background color on hover */
 }

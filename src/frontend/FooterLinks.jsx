@@ -18,10 +18,10 @@ const FooterLinks = () => {
 
             <a href="#" className="link-block w-inline-block">
               <p className="text-small">
-                Copy trading
+                Copy Trading
                 <span
                   style={{
-                    color: 'blue',
+                    color: 'green',
                     fontSize: '10px',
                     fontWeight: 'bolder',
                   }}
@@ -109,6 +109,16 @@ const FooterLinks = () => {
             <a href="#get-funded" className="link-block w-inline-block">
               <p className="text-small">
                 Get Funded
+
+                <span
+                  style={{
+                    color: 'green',
+                    fontSize: '10px',
+                    fontWeight: 'bolder',
+                  }}
+                >
+                  (coming soon)
+                </span>
                
               </p>
             </a>

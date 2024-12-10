@@ -3,9 +3,9 @@ import '../assets/brand.css'; // Ensure to import the CSS file for styles
 
 const Brand = () => {
   return (
-    
+
     <section className="brand-section">
-      
+
       <div className="w-layout-blockcontainer container w-container">
         <div className="brand-inner">
           {/* Brand Title Block */}
@@ -19,96 +19,136 @@ const Brand = () => {
               <div className="ticker-block">
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05cf_brand-logo-1.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_probit_global.png"
                     loading="lazy"
                     alt="brand"
                     className="image-6"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05e1_brand-logo-4.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_polygon.png"
                     loading="lazy"
                     alt="brand"
                     className="image-7"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05e3_brand-logo-6.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_gempad.png"
                     loading="lazy"
                     alt="brand"
                     className="image-8"
+                    style={{
+                      width: '180px',
+                      height: '60px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
+
+
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05e4_brand-logo-7.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_mario_nawal.png"
                     loading="lazy"
                     alt="brand"
                     className="image-9"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05e5_brand-logo-3.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_mint_me.png"
                     loading="lazy"
                     alt="brand"
                     className="image-10"
+                    style={{
+                      width: '250px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0666_image%20879.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_mexc_global.png"
                     loading="lazy"
                     alt="brand"
                     className="image-11"
+                    style={{
+                      width: '180px',
+                      height: '60px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
               </div>
 
               {/* Second ticker block */}
               <div className="ticker-block">
+                
+              
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0666_image%20879.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_melaga_swap.png"
                     loading="lazy"
                     alt="brand"
+                    style={{
+                      width: '180px',
+                      height: '30px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0665_image%20882.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_xt_com.png"
                     loading="lazy"
                     alt="brand"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0664_image%20880.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_contiger.png"
                     loading="lazy"
                     alt="brand"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
                 <div className="content-ticker-item">
                   <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0663_image%20883.svg"
+                    src="/assets/6726ca0f328abbff95ca0511/eosi_lbank.png"
                     loading="lazy"
                     alt="brand"
-                  />
-                </div>
-                <div className="content-ticker-item">
-                  <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0662_image%20884.svg"
-                    loading="lazy"
-                    alt="brand"
-                  />
-                </div>
-                <div className="content-ticker-item">
-                  <img
-                    src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca0661_image%20878.svg"
-                    loading="lazy"
-                    alt="brand"
+                    style={{
+                      width: '180px',
+                      height: '40px',
+                      filter: 'brightness(70%)'  // Darkens the image
+                    }}
                   />
                 </div>
               </div>
