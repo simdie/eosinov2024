@@ -26,7 +26,7 @@ const ContentTwoTextBlock = () => {
         </h2>
         <div className="content-paragraph-wrap">
           <p className="text-color">
-          EOSI Finance allows you to copy trades from experienced crypto traders, letting you benefit from their expertise without needing to understand the market intricacies. Grow your crypto assets effortlessly with a solution designed for steady returns.
+          Empower your crypto-trading journey with user-friendly AI tools. While our technology aims to enhance trading efficiency, outcomes depend on market conditions and user decisions.
           </p>
         </div>
       </div>

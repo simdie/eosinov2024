@@ -65,6 +65,18 @@ const Header = () => {
                                     <div className="dropdown w-dropdown">
                                         <a href="#" className="nav-item w-nav-link">Products</a>
                                         <div className="w-dropdown-list">
+                                             href="#" className="dropdown-link">StandR AI Bot
+                                                <span
+                                                    style={{
+                                                        color: 'green',
+                                                        fontSize: '10px',
+                                                        fontWeight: 'bolder',
+                                                        marginLeft: '5px',
+                                                    }}
+                                                >
+                                                    (new)
+                                                </span>
+                                            </a>
                                             <a href="#" className="dropdown-link">Copy-Trading
                                                 <span
                                                     style={{
