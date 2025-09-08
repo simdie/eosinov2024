@@ -84,7 +84,7 @@ const FooterNewsletter = () => {
           <p className="text-small" >Follow Us</p>
           <div className="social-icons">
             <a
-              href="mailto:eosi@tutanota.com"
+              href="mailto:info@eosifinance.org"
               className="social-icon"
               target="_blank"
               rel="noopener noreferrer"

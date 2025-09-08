@@ -35,7 +35,7 @@ const FooterLinks = () => {
             <a href="#team" className="link-block w-inline-block">
               <p className="text-small">Team</p>
             </a>
-            <a href="mailto:eosi@tutanota.com" className="link-block w-inline-block">
+            <a href="mailto:info@eosifinance.org" className="link-block w-inline-block">
               <p className="text-small">Contact</p>
             </a>
             {/* External link */}
@@ -121,6 +121,14 @@ const FooterLinks = () => {
                 </span>
                
               </p>
+            </a>
+             <a
+              href="https://t.me/StandR_AI_BOT"
+              className="link-block w-inline-block"
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
+            >
+              <p className="text-small">StandR AI Bot</p>
             </a>
           </div>
         </div>
