@@ -19,7 +19,7 @@ const FooterCopyright = () => {
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
             >
-              <p className="text-small">Terms of Service |</p>
+              <p className="text-small"> Terms of Service | </p>
             </a>
 
 
@@ -30,7 +30,7 @@ const FooterCopyright = () => {
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
             >
-              <p className="text-small">Privacy Policy |</p>
+              <p className="text-small"> Privacy Policy | </p>
             </a>
 
             
@@ -40,7 +40,7 @@ const FooterCopyright = () => {
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
             >
-              <p className="text-small">Disclaimer</p>
+              <p className="text-small"> Disclaimer</p>
             </a>
       </p>
     </div>
