@@ -104,7 +104,7 @@ const Header = () => {
                                     <a href="https://online.fliphtml5.com/limyj/fvvf" className="nav-item w-nav-link"
                                         target="_blank" // Opens the link in a new tab
                                         rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
-                                    >Pitch Deck</a>
+                                    >White Paper</a>
 
                                     <a href="/" aria-current="page" className="nav-item w-nav-link w--current track-button">Track</a>
 
