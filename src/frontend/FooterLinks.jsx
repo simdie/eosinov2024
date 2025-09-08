@@ -86,7 +86,7 @@ const FooterLinks = () => {
               target="_blank" // Opens the link in a new tab
               rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
             >
-              <p className="text-small">Pitch Deck</p>
+              <p className="text-small">White Paper</p>
             </a>
 
             <a
