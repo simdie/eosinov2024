@@ -30,7 +30,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }} // Final state: fully visible, at its original position
                 transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }} // Smooth transition with slight delay
               >
-                Invest with the best AI powered technologies
+                Trade with the best AI powered technologies
               </motion.h1>
             </div>
 
@@ -57,7 +57,7 @@ const Hero = () => {
                 className="hero-button-wrap"
               >
                 <a href="https://online.fliphtml5.com/limyj/fvvf/" className="button w-inline-block" target="_blank" rel="noopener noreferrer">
-                  <div>Read the Pitch Deck</div>
+                  <div>Read the White Paper</div>
                   <img
                     src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca058d_arrow-right.svg"
                     loading="lazy"
