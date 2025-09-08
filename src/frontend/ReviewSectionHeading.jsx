@@ -8,7 +8,7 @@ const ReviewSectionHeading = () => {
           <div className="badge-text">VERIFIED REVIEWS</div>
         </div>
         <h2 className="heading-two reviews-title-content-heading">
-          Trusted by 723+ happy users
+          Trusted by 723+ happy community members
         </h2>
         <p className="text-default reviewx-section-paragraph">
         EOSI Finance equips every crypto lover and DeFi ethuansist with varying and effective arms for maximum profit amidst their crypto trading level with the world best trusted AI technologies.

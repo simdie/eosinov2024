@@ -77,7 +77,7 @@ const TeamSection = () => {
                 viewport={{ once: true }} // Trigger animation only once when it comes into view
               >
                 <p className="text-default reviewx-section-paragraph">
-                  EOSI Finance was founded by experienced quant traders, programmers, mathematicians and DeFi lovers with years of expereince in decentralised finance, forex, equity, stocks, binary options and the business fields as well.
+                  EOSI Finance was founded by experienced quant traders, programmers, mathematicians and DeFi lovers with years of experience in decentralised finance, forex, equity, stocks, binary options and the business fields as well.
 
                   <br />
                   <br />

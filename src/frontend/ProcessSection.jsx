@@ -28,7 +28,7 @@ const ProcessSection = () => {
             >
 
 
-              EOSI Finance in numbers
+              EOSI Finance initial proposed in numbers
             </motion.h2>
 
           </div>

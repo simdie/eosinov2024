@@ -65,7 +65,7 @@ const ContentThreeTextBlock = () => {
         </h2>
         <div className="content-paragraph-wrap">
           <p className="text-color text-large">
-          Carving trading experience constantly is our top priority. Shorter is driven under the ethos of downright on-chain and open-source, bringing traders one step further towards our valuation of erecting a transparent, reliable, community-owned TradFi ecosystem. If you are a trader, and you want to feel the power of a Crypto Prop Firm, then EOSI Finance is the right place to kickstart your funded crypto account journey.
+          Carving trading experience constantly is our top priority. Shorter is driven under the ethos of downright on-chain and open-source, bringing traders one step further towards our valuation of erecting a transparent, reliable, community-owned TradFi and DeFAI ecosystem. If you are a trader, and you want to feel the power of a Crypto Prop Firm, then EOSI Finance is the right place to kickstart your funded crypto account journey.
           </p>
         </div>
       </div>
