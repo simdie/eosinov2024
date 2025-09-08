@@ -11,7 +11,7 @@ const FooterCopyright = () => {
           className="image-12"
         />
       </div>
-      <p className="text-small footer-bottom-paragraph paragraph-2">©2024 All Rights Reserved | EOSI Finance</p>
+      <p className="text-small footer-bottom-paragraph paragraph-2">©2025 All Rights Reserved | EOSI Finance</p>
     </div>
   );
 };
