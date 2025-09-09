@@ -32,12 +32,12 @@ const reviewsData = [
   {
     name: 'James Collins',
     role: 'Co-Founder & CEO, CodeWrights',
-    review: "Thanks to EOSI Finance, we were able to optimize our crypto portfolio and reduce risks. Their AI-driven strategies are top-notch, offering a hands-off approach to trading.",
+    review: "Thanks to EOSI Finance, we will be able to optimize our crypto portfolio and reduce risks. Their AI-driven strategies will be top-notch, offering a hands-off approach to trading.",
     imgSrc: '/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05ad_Base%20%287%29.png',
   },
   {
     name: 'Isabella Green',
-    role: 'Co-Founder & CEO, CodeMinds',
+    role: 'StandR Bot user',
     review: "EOSI Finance provided us with incredible insights into the crypto market. Their AI technology is incredibly powerful, making our trading decisions much more effective and reliable.",
     imgSrc: ' /assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05b0_Base%20%284%29.png',
   },
