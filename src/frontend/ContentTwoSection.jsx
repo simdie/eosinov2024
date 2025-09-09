@@ -49,7 +49,7 @@ const ContentTwoTextBlock = () => {
               </div>
             </div>
             <div className="content-text-widget">
-              <div className="text-medium font-weight-700">EOSI Finance enables easy entry into the crypto</div>
+              <div className="text-medium font-weight-700">EOSI Finance enables easy entry </div>
               <div className="text-block">
                 EOSI Finance enables easy entry into the crypto space for beginners by utilizing decentralized exchange (DEX) protocols, ensuring confident engagement.
               </div>

@@ -56,7 +56,7 @@ const Hero = () => {
                 style={{ opacity: 1 }}
                 className="hero-button-wrap"
               >
-                <a href="https://online.fliphtml5.com/limyj/fvvf/" className="button w-inline-block" target="_blank" rel="noopener noreferrer">
+                <a href="https://eosi-finance-1.gitbook.io/eosi-finance-documentations" className="button w-inline-block" target="_blank" rel="noopener noreferrer">
                   <div>Read the White Paper</div>
                   <img
                     src="/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca058d_arrow-right.svg"

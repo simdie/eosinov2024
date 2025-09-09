@@ -23,7 +23,7 @@ export default function Header() {
                 <MenuItem title="Roadmap" address="/" />
                 <MenuItem title="Team" address="/" />
                 <MenuItem title="Blog" address="https://medium.com/@v.hamann" />
-                <MenuItem title="Whitepaper" address="https://eosi-finance.gitbook.io/eosi-finance-whitepaper/ " />
+                <MenuItem title="Whitepaper" address="https://eosi-finance-1.gitbook.io/eosi-finance-documentations " />
 
 
 

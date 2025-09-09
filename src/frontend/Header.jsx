@@ -73,6 +73,8 @@ const Header = () => {
                                                         fontWeight: 'bolder',
                                                         marginLeft: '5px',
                                                     }}
+                                                    target="_blank" // Opens the link in a new tab
+                                                    rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
                                                 >
                                                     (new)
                                                 </span>
@@ -113,7 +115,7 @@ const Header = () => {
                                         rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
                                     >Blog</a>
 
-                                    <a href="https://online.fliphtml5.com/limyj/fvvf" className="nav-item w-nav-link"
+                                    <a href="https://eosi-finance-1.gitbook.io/eosi-finance-documentations" className="nav-item w-nav-link"
                                         target="_blank" // Opens the link in a new tab
                                         rel="noopener noreferrer" // Security feature to prevent potential vulnerabilities
                                     >White Paper</a>
