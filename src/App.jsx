@@ -25,7 +25,28 @@ const App = () => {
   };
 
   const handleReject = () => {
-    window.location.href = 'https://ico.eosifinance.org/';
+    const ref = document.referrer;
+
+    // If there is a referrer and it's NOT your own site, go back there
+    if (ref) {
+      try {
+        const refURL = new URL(ref);
+        if (refURL.origin !== window.location.origin) {
+          window.location.replace(refURL.href); // don't keep this page in history
+          return;
+        }
+      } catch {
+        // ignore malformed referrer
+      }
+    }
+
+    // Otherwise, try normal back navigation
+    if (window.history.length > 1) {
+      window.history.back();
+    } else {
+      // Fallback if no history (opened in a new tab/typed URL)
+      window.location.replace('https://ico.eosifinance.org/');
+    }
   };
 
   return (
