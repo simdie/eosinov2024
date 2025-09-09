@@ -1,15 +1,12 @@
-import React from 'react';
-
-+import React, { useEffect, useState } from 'react';
-
-
+import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import { Sidebar, Navbar } from './components';
-import { CampaignDetails, CreateCampaign, Dashboard, Transactions, CopyTrade, ProfileDetails, Contact, Front, Dashboardd, Home2, } from './pages';
+import { CampaignDetails, CreateCampaign, Dashboard, Transactions, CopyTrade, ProfileDetails, Contact, Front, Dashboardd, Home2 } from './pages';
 import ConsentModal from './components/ConsentModal';
 
 const CONSENT_KEY = 'eosi_tac'; // localStorage key
+
 
 const App = () => {
   
