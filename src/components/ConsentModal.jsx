@@ -42,7 +42,7 @@ const ConsentModal = ({ show, onAccept, onReject, children }) => {
         onMouseDown={(e) => e.stopPropagation()}
       >
         <h2 id="consent-title" className="text-xl font-bold mb-4">
-          EOSI Finance Private &amp; Public Token Sale: Terms &amp; Conditions
+          ❗️&amp;Attention&amp; ❗️
         </h2>
 
         <div className="overflow-y-auto pr-2" style={{ maxHeight: '320px' }}>
