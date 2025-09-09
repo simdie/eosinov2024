@@ -18,8 +18,8 @@ const reviewsData = [
 
   {
     name: 'Aria Amandaz',
-    role: 'CEO, Digital Nexus',
-    review: "EOSI Finance has taken our trading to the next level. The ability to copy top traders with ease has increased our profits consistently. As a prop firm, we value the AI-driven strategies, which provide us with great returns without the hassle of manual trading.",
+    role: 'Prop Firm Trader',
+    review: "EOSI Finance has the potential to take our trading to the next level. The ability to copy top traders with ease will increase our profits consistently. As a prop firm trader, I value the AI-driven strategies, which provide us with great returns without the hassle of manual analysis",
     imgSrc: '/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05b1_Base%20%283%29.png',
   },
  
