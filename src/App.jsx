@@ -33,9 +33,25 @@ const App = () => {
 
     <>
 
-    <ConsentModal show={showConsent} onAccept={handleAccept} onReject={handleReject}>
-      {/* all your <p> Terms & Conditions text goes here */}
-    </ConsentModal>
+       return (
+ 
+     <>
+      <ConsentModal show={showConsent} onAccept={handleAccept} onReject={handleReject}>
+        <p className="mb-4 text-sm">
+          Before proceeding, please confirm the following:
+        </p>
+        <p className="mb-3 text-sm">
+          1. Jurisdiction - I am not a resident or citizen of a restricted or sanctioned jurisdiction (including, but not limited to, the United States, Canada, the European Union, the United Kingdom, Australia, New Zealand, or any country subject to international sanctions) and I understand that EOSI Finance may use IP-geoblocking and other measures to enforce these restrictions.</p>
+        
+        <p className="mb-3 text-sm">
+          2. Third-Party Protocols & KYC/AML - I understand that EOSI Finance operates a non-custodial, decentralised interface. Some third-party decentralised exchanges, liquidity providers, bridges or APIs used by EOSI Finance may require identity verification or compliance with Know-Your-Customer (KYC) and Anti-Money-Laundering (AML) regulations. I agree that it is my responsibility to complete any such requirements directly with those third-party providers.</p>
+        <p className="mb-3 text-sm">
+          3. Third-Party Integration Notice - I acknowledge that EOSI Finance does not own or control these external DEXs, bridges, or APIs. Any trades or transfers routed through them are subject to the third-party's own terms of service and risk policies, and EOSI Finance is not liable for the performance or security of those external protocols.</p>
+       
+        <p className="mb-4 text-sm">
+          By clicking “Agree & Continue,” you confirm the above and consent to our Terms of Service, Privacy Policy, and Disclaimer.</p>
+      </ConsentModal>
+
 
       {/* <Home2 /> */}
 
