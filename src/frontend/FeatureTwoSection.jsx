@@ -176,7 +176,7 @@ const FeatureSection = () => {
                   <div className="row-gap-24">
                     <div className="feature-card-two-title-block">
                       <h3 className="heading-three">
-                        3. Start investing Today
+                        3. Start trading Today
                       </h3>
                     </div>
                     <p
