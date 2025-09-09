@@ -42,7 +42,7 @@ const ConsentModal = ({ show, onAccept, onReject, children }) => {
         onMouseDown={(e) => e.stopPropagation()}
       >
         <h2 id="consent-title" className="text-xl font-bold mb-4">
-          ❗️&amp;Attention&amp; ❗️
+          ❗️ Attention ❗️
         </h2>
 
         <div className="overflow-y-auto pr-2" style={{ maxHeight: '320px' }}>
