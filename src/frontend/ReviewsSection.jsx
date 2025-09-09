@@ -11,8 +11,8 @@ const reviewsData = [
 
   {
     name: 'Cheng Darryl',
-    role: 'Co-Founder Sanest MoneyFX',
-    review: "This is a significant achievement! By prioritizing excellent products and artificial intelligence, they have established a winning strategy for product advancement in the realm of Web3 prop firm business.",
+    role: 'Owner, Sanest MoneyFX',
+    review: "This will be a significant achievement! By decentralizing onboarding of prop firm traders, prioritizing excellent products and artificial intelligence, they have established themselves as the pioneers of AI powered decentralized prop firm with a winning strategy for product advancement in the realm of Web3 prop firm business.",
     imgSrc: '/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05ae_Base%20%286%29.png',
   },
 
