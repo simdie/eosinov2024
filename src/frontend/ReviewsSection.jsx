@@ -25,8 +25,8 @@ const reviewsData = [
  
   {
     name: 'Oliver Brooks',
-    role: 'CFO at CryptoVision',
-    review:"Using EOSI Finance’s copy trading feature has been a game changer for our prop firm. It allows us to replicate the strategies of expert traders and steadily grow our portfolio with minimal effort, providing consistent profits.",
+    role: 'CFO at CryptoVision Academy',
+    review: "Using EOSI Finance’s copy trading feature will be a game changer for our prop firm academy. It will allow newbies to replicate the strategies of expert traders and steadily grow their portfolio with minimal effort, providing consistent profits.",
     imgSrc: '/assets/6726ca0f328abbff95ca0511/6726ca0f328abbff95ca05b3_Base%20%281%29.png',
   },
   {
